@@ -1,0 +1,11 @@
+URL called: http://localhost:8080/example-service/test?zip=32805
+
+Result:
+--------------------------------------------------------------
+Orlando - FL
+Description: Mostly Sunny
+Pressure: 30.07R
+Relative Humidity: 94%
+Temperature: 75°F
+Wind: N3
+--------------------------------------------------------------

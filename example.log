@@ -1,0 +1,62 @@
+/Users/samueltauil/Development/jboss-eap-6.4/bin/standalone.sh
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /Users/samueltauil/Development/jboss-eap-6.4
+
+  JAVA: /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin/java
+
+  JAVA_OPTS: -Xms1303m -Xmx1303m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.modules.policy-permissions=true
+
+=========================================================================
+
+/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin/java -classpath "/Applications/IntelliJ IDEA 14.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 14.app/Contents/lib/util.jar" -Dfile.encoding=UTF-8 com.intellij.rt.execution.CommandLineWrapper /private/var/folders/zp/zf07p5gj7nq6fs3x7tcpbwr40000gn/T/classpath0.tmp com.intellij.javaee.oss.process.JavaeeProcess 58172 com.intellij.javaee.oss.jboss.agent.JBoss71Agent
+[2015-11-06 04:48:04,584] Artifact example-service:war: Server is not connected. Deploy is not available.
+Detected server admin port: 9999
+Detected server http port: 8080
+16:48:03,825 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+16:48:05,055 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+16:48:05,172 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+16:48:06,564 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+16:48:06,568 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+16:48:06,574 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+16:48:06,596 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+16:48:06,619 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+16:48:06,629 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+16:48:06,630 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Activating Security Subsystem
+16:48:06,639 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+16:48:06,642 INFO  [org.jboss.as.security] (MSC service thread 1-15) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+16:48:06,650 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+16:48:06,682 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+16:48:06,712 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+16:48:06,764 INFO  [org.jboss.as.naming] (MSC service thread 1-13) JBAS011802: Starting Naming Service
+16:48:06,764 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+16:48:06,783 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+16:48:07,079 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+16:48:07,094 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+16:48:07,224 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+16:48:07,329 INFO  [org.jboss.ws.common.management] (MSC service thread 1-13) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+16:48:07,407 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory /Users/samueltauil/Development/jboss-eap-6.4/standalone/deployments
+16:48:07,421 INFO  [org.jboss.as.remoting] (MSC service thread 1-14) JBAS017100: Listening on 127.0.0.1:9999
+16:48:07,421 INFO  [org.jboss.as.remoting] (MSC service thread 1-16) JBAS017100: Listening on 127.0.0.1:4447
+16:48:07,553 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+16:48:07,554 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+16:48:07,555 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 4461ms - Started 153 of 191 services (57 services are lazy, passive or on-demand)
+Connected to server
+[2015-11-06 04:48:08,059] Artifact example-service:war: Artifact is being deployed, please wait...
+16:48:08,209 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "example-service.war" (runtime-name: "example-service.war")
+16:48:09,289 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015960: Class Path entry jaxb-api.jar in /content/example-service.war/WEB-INF/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+16:48:09,290 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015960: Class Path entry activation.jar in /content/example-service.war/WEB-INF/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+16:48:09,290 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015960: Class Path entry jsr173_1.0_api.jar in /content/example-service.war/WEB-INF/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+16:48:09,291 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015960: Class Path entry jaxb1-impl.jar in /content/example-service.war/WEB-INF/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+16:48:09,291 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015960: Class Path entry jaxb-api.jar in /content/example-service.war/WEB-INF/lib/jaxb-impl-2.2.6.jar  does not point to a valid jar for a Class-Path reference.
+16:48:09,696 WARN  [org.jboss.as.ee] (MSC service thread 1-10) JBAS011006: Not installing optional component org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation due to an exception (enable DEBUG log level to see the cause)
+16:48:09,697 WARN  [org.jboss.as.ee] (MSC service thread 1-10) JBAS011006: Not installing optional component org.eclipse.jetty.continuation.Servlet3Continuation$1 due to an exception (enable DEBUG log level to see the cause)
+16:48:09,697 WARN  [org.jboss.as.ee] (MSC service thread 1-10) JBAS011006: Not installing optional component org.eclipse.jetty.continuation.Servlet3Continuation$2 due to an exception (enable DEBUG log level to see the cause)
+16:48:09,698 WARN  [org.jboss.as.ee] (MSC service thread 1-10) JBAS011006: Not installing optional component org.eclipse.jetty.server.handler.IdleTimeoutHandler$1 due to an exception (enable DEBUG log level to see the cause)
+16:48:09,773 INFO  [org.jboss.web] (ServerService Thread Pool -- 24) JBAS018210: Register web context: /example-service
+16:48:09,877 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015859: Deployed "example-service.war" (runtime-name : "example-service.war")
+[2015-11-06 04:48:09,903] Artifact example-service:war: Artifact is deployed successfully
+[2015-11-06 04:48:09,903] Artifact example-service:war: Deploy took 1,845 milliseconds
+16:48:19,878 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (http-/127.0.0.1:8080-1) Creating Service {http://ws.cdyne.com/WeatherWS/}Weather from WSDL: http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
