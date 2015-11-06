@@ -15,7 +15,7 @@
             <version>1.0.2.Final-redhat-1</version>
         </dependency>
 
-<!-- with redhat version dependencies it works fine but got warnings in log related to classpath
+<!-- with redhat version dependencies it works fine but got warnings in log related to classpath -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
@@ -33,9 +33,8 @@
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <version>2.7.14.redhat-1</version>
         </dependency>
--->
 
-<!-- Worked fine without warnins related to classpath since versions are different -->
+<!-- Worked fine without warnings related to classpath since versions are different
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
@@ -53,6 +52,7 @@
             <artifactId>cxf-rt-transports-http-jetty</artifactId>
             <version>2.7.14</version>
         </dependency>
+        -->
 
     </dependencies>
     <build>
